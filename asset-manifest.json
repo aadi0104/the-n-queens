@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-n-queens/static/css/main.aaee1e1b.css",
+    "main.js": "/the-n-queens/static/js/main.163a9dd7.js",
+    "static/media/celebration.gif": "/the-n-queens/static/media/celebration.96817e485a36dc417270.gif",
+    "static/media/Background1.jpg": "/the-n-queens/static/media/Background1.2446af14aec61cd22723.jpg",
+    "index.html": "/the-n-queens/index.html",
+    "main.aaee1e1b.css.map": "/the-n-queens/static/css/main.aaee1e1b.css.map",
+    "main.163a9dd7.js.map": "/the-n-queens/static/js/main.163a9dd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaee1e1b.css",
+    "static/js/main.163a9dd7.js"
+  ]
+}
