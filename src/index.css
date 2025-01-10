@@ -1,0 +1,226 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  overflow-x: hidden;
+}
+
+.main-class {
+  height: 100vh;
+  background: radial-gradient(rgba(176, 176, 176, 0.6), rgba(0, 0, 0, 0.9)), url("./Assets/Background1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Nav-Bar */
+
+.custom-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-nav>div {
+  z-index: 105;
+  width: 90%;
+  background-color: rgb(78, 77, 77);
+  opacity: 70%;
+  padding: 15px 20px;
+  border: 2px solid #FFD700;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-nav>div a {
+  color: #FFD700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Home Page */
+
+.home-page {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-buttons>div p {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-shadow: 1.3px 1px black;
+}
+
+.home-buttons>div {
+  width: 340px;
+  text-align: center;
+  color: #FFD700;
+}
+
+.buttons-holder {
+  text-align: center;
+}
+
+.home-buttons button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: rgb(41, 41, 41);
+  margin: 10px;
+  border: 2px solid #FFD700;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.home-buttons button a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+/* Rules Page and Help Page */
+
+.rules-page,
+.help-page {
+  height: 80vh;
+  padding: 8px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1.3px 1px black;
+}
+
+.rules-page>div,
+.help-page>div {
+  color: #FFD700;
+}
+
+/* Custom Game */
+
+.custom-game {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-game h3 {
+  text-align: center;
+  color: #FFD700;
+}
+
+.custom-game input {
+  border: 3px solid #FFD700;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #e3c103;
+  outline: none;
+}
+
+.custom-game form>div>button {
+  padding: 10px 20px;
+  background-color: rgba(92, 92, 92, 0.786);
+  border: 2px solid #e3c103;
+  color: #e3c103;
+  border-radius: 20px;
+}
+
+/* Chess Board */
+
+.chessboard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.chess-row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #f9d613;
+}
+
+.cell.black {
+  background-color: rgb(94, 94, 94);
+}
+
+.cell.white {
+  background-color: white;
+}
+
+
+
+/* Game */
+
+.game {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chessboard {
+  border: 5px solid black;
+  box-shadow: 1px 1px 10px 2px #FFD700;
+}
+
+.game>div>div>div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game>div>div>div>button {
+  padding: 8px 10px;
+  z-index: 105;
+  border: 2px solid rgb(86, 86, 86);
+  background-color: #e4c200;
+  color: rgb(86, 86, 86);
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+/* Solve By Computer */
+
+.solve-by-computer {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solve-by-computer>div>h3 {
+  color: #FFD700;
+}
+
+/* Sprinkler */
+
+.sprinkler {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./Assets/celebration.gif");
+  background-size: contain;
+  background-position: center;
+  opacity: 50%;
+}
